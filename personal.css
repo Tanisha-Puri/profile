@@ -61,7 +61,7 @@ header{
     color: white;
 }
 .hero-content{
-    text-align: center;
+    text-align: right;
     padding-right: 3rem;
     padding-top: 5rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -178,6 +178,7 @@ h4{
     background-image: radial-gradient(#f7e1d7,#a3cef1);
     height: 10rem;
     width: 10rem;
+    line-height: 10rem;
     border-radius: 50%;
     text-align: center;
     border: 2px solid #457b9d;

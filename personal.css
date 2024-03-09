@@ -187,6 +187,22 @@ h4{
     padding: 2rem;
     background-color: #ffe6a7;
 }
+#projects{
+    background-color: #a3cef1;
+    padding: 2rem;
+}
+.project{
+    display: flex;
+    justify-content: space-evenly;
+}
+.pro{
+    background-image: radial-gradient(#f7e1d7,#a3cef1);
+    height: 10rem;
+    width: 10rem;
+    line-height: 10rem;
+    text-align: center;
+    border: 2px solid #457b9d;
+}
 #contactme{
     background-image: linear-gradient(to right,rgb(241, 59, 89),rgb(232, 21, 232),rgb(54, 165, 239));
     padding: 2rem;

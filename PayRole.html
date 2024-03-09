@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="PayRole.css">
+    <title>Pay Role Management</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Pay Role Management</h1>
+        <form id="payRoleForm">
+            <label for="employeeName">Employee Name:</label>
+            <input type="text" id="employeeName" name="employeeName">
+
+            <label for="hourlyWage">Hourly Wage:</label>
+            <input type="number" id="hourlyWage" name="hourlyWage">
+
+            <label for="hoursWorked">Hours Worked:</label>
+            <input type="number" id="hoursWorked" name="hoursWorked">
+
+            <button type="button" onclick="calculatePay()">Calculate Pay</button>
+        </form>
+
+        <div id="payOutput"></div>
+    </div>
+
+    <script src="PayRole.js"></script>
+</body>
+</html>

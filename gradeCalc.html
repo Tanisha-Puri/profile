@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Grade Calculator</title>
+    <link rel="stylesheet" href="gradeCalc.css">
+</head>
+<body>
+    <div class="calculator">
+        <h1>Student Grade Calculator</h1>
+        <form id="grade-calculator" onsubmit="calculate(); return false;">
+            <input type="number" id="chemistry" name="chemistry" placeholder="Enter Chemistry marks" required>
+            <input type="number" id="hindi" name="hindi" placeholder="Enter Hindi marks" required>
+            <input type="number" id="maths" name="math" placeholder="Enter Math marks" required>
+            <input type="number" id="phy" name="computer" placeholder="Enter Physics marks" required>
+            <button type="submit">Calculate Grade</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="gradeCalc.js"></script>
+</body>
+</html>

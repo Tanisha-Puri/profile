@@ -1,0 +1,17 @@
+<div class="container">
+    <div class="heading">
+        <a class="btn btn_success" href="/">Home</a>
+    </div>
+    <div class="form">
+        <div class="side_img"></div>
+        <div class="form_container">
+            <form action="/article/edit/<%= article.id %>" method="post">
+                <input type="text" name="title" placeholder="Title..." value=<%= article.title %>>
+                <textarea name="content" placeholder="Content/Description..." cols="30" rows="10"><%= article.content %></textarea><br>
+                <textarea name="author" placeholder="Author" cols="20" rows="3"><%= article.author %></textarea><br>
+                <textarea name="websiteLink" placeholder="Website Link" cols="20" rows="3"><%= article.websiteLink %></textarea><br>
+                <button class="btn btn_info" type="submit">Update</button>
+            </form>
+        </div>
+    </div>
+</div>

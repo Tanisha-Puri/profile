@@ -1,0 +1,17 @@
+<div class="container">
+    <div class="heading">
+        <h1>Welcome to our blog</h1>
+        <a class="btn btn_success" href="/">Home</a>
+    </div>
+    <div class="single_post">
+        <% if (article) { %>
+            <h1><%= article.title %></h1>
+            <p><%= article.content %></p>
+            <b><%= article.author %></b><br>
+            <a href="<%= article.websiteLink %>"><%= article.websiteLink %></a>
+            <h5 class="date"><i><%= article.createdAt.toLocaleDateString() %></i></h5>
+        <% } else { %>
+            <p>Article not found.</p>
+        <% } %>
+    </div>
+</div>
